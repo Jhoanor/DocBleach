@@ -71,7 +71,7 @@ public class RTFBleach implements Bleach {
           session.recordThreat(threat);
         }
         String sanitizedLine = sanitizeLine(l);
-        outStream.write(sanitizedLine);
+        outStream.write(sanitizedLine+"\r\n");
       }
     } catch (IOException e) {
       throw new BleachException(e);
