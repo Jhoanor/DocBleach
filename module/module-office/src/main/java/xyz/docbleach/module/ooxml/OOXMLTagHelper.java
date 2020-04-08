@@ -30,7 +30,7 @@ public class OOXMLTagHelper {
   /**
    *The regexp tries to catch the whole tag, including namespace and attributes (<n:externalData ...>...</n:externalData>)
    */
-    private static final String REGEXP_EXTERNAL_DATA = "<.." + TAG_EXTERNAL_DATA + "(.*</.." + TAG_EXTERNAL_DATA + ">|.*?/>)";
+  private static final String REGEXP_EXTERNAL_DATA = "<.." + TAG_EXTERNAL_DATA + "(.*</.." + TAG_EXTERNAL_DATA + ">|.*?/>)";
 
   /**
    * bleach DDE in external link and document
