@@ -28,7 +28,7 @@ public class OOXMLTagHelper {
   private static final String TAG_EXTERNAL_DATA = "externalData";
 
   /**
-   *The regexp tries to catch the whole tag, including namespace and attributes (<n:externalData ...>...</n:externalData>)
+   * The regexp tries to catch the whole tag, including namespace and attributes (<n:externalData ...>...</n:externalData>)
    */
   private static final String REGEXP_EXTERNAL_DATA = "<.." + TAG_EXTERNAL_DATA + "(.*</.." + TAG_EXTERNAL_DATA + ">|.*?/>)";
 
